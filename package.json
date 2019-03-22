@@ -1,0 +1,35 @@
+{
+  "name": "globalot",
+  "version": "2.15.10",
+  "description": "Expose an always global version of opentok.js without amd or requirejs modules",
+  "main": "dist/globalot.js",
+  "files": [
+    "dist/globalot.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aullman/globalot.git"
+  },
+  "keywords": [
+    "opentok",
+    "amd",
+    "umd",
+    "requirejs"
+  ],
+  "author": "Adam Ullman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aullman/globalot/issues"
+  },
+  "homepage": "https://github.com/aullman/globalot#readme",
+  "dependencies": {
+    "@opentok/client": "^2.15.10"
+  },
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}

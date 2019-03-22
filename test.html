@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Testing</title>
+  <script>
+    window.define = function(){};
+    window.define.amd = true;
+  </script>
+  <script src="dist/globalot.js"></script>
+  <script>
+    // OT should still be defined even though amd exists
+    console.log(OT);
+  </script>
+</head>
+<body>
+  
+</body>
+</html>
